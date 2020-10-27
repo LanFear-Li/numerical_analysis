@@ -29,3 +29,6 @@
 2、newton_divided_difference.m：获取牛顿差商矩阵
 
 3、newton_interpolation.m：牛顿插值法
+
+## 三、demo：一些演示
+1、runge.m：龙格现象演示
