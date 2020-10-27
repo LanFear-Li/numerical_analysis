@@ -1,10 +1,4 @@
-clc;clear
-format long
-
-NDpiv(0.1581);
-NDpiv(0.636);
-
-function NDpiv(x)
+function NewtonDifference(x)
     A = [0.79618, 0.77334, 0.74371, 0.70413, 0.65632, 0.60228];
     B = diff(A);
     C = diff(B);
@@ -23,6 +17,3 @@ function NDpiv(x)
     end
         fprintf("f(%f) = %f\n", x, res);
 end
-
-
-this file is added for testing
