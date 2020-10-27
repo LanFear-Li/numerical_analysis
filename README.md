@@ -22,3 +22,10 @@
 7、get_gauss_seidel_matrix.m：获取Gauss-Seidel迭代矩阵
 
 8、thomas_algorithm.m：追赶法求解三对角矩阵
+
+## 二、interpolation：插值算法
+1、lagrange_interpolation.m：拉格朗日插值法
+
+2、newton_divided_difference.m：获取牛顿差商矩阵
+
+3、newton_interpolation.m：牛顿插值法
