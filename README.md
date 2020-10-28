@@ -30,5 +30,7 @@
 
 3、newton_interpolation.m：牛顿插值法
 
+4、piecewise_linear_interpolation.m：分段线性插值法
+
 ## 三、demo：一些演示
 1、runge.m：龙格现象演示
