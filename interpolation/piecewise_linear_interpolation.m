@@ -8,7 +8,6 @@ function res = piecewise_linear_interpolation(x, y, u)
     delta = diff(y) ./ diff(x);
     
     k = ones(1, length(u));
-    
     for i = 2 : n - 1
         k(u >= x(i)) = i;
     end

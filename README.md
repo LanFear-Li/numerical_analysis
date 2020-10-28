@@ -32,5 +32,11 @@
 
 4、piecewise_linear_interpolation.m：分段线性插值法
 
+5、hermite_interpolation.m：分段三次埃尔米特插值法
+
+6、get_pchip_derivative.m：获取PCHIP插值导数
+
+7、pchip_interpolation.m：PCHIP插值（对hermite_interpolation、get_pchip_derivative的包装）
+
 ## 三、demo：一些演示
 1、runge.m：龙格现象演示
