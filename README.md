@@ -39,7 +39,13 @@
 7、pchip_interpolation.m：PCHIP插值（对hermite_interpolation、get_pchip_derivative的包装）
 
 ## 三、least_square：最小二乘法
-1、projection_least_square.m：（教科书上常见的）列空间投影求最小二乘解
+1、projection_least_square.m：（教科书上常见的）列空间投影求最小二乘解，数值稳定性差
+
+2、get_householder_matrix.m：获取豪斯赫尔德反射矩阵，将一个向量反射到一个坐标轴上
+
+3、qr_decomposition.m：借助豪斯赫尔德反射矩阵对矩阵进行QR分解
+
+4、qr_least_square.m：借助QR分解实现数值稳定性好的最小二乘法
 
 ## 四、curve_fitting：曲线拟合
 1、generate_curve_scatter.m：围绕给定曲线生成一系列位置扰动后的散点。用于初步测试曲线拟合效果
