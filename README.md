@@ -38,5 +38,11 @@
 
 7、pchip_interpolation.m：PCHIP插值（对hermite_interpolation、get_pchip_derivative的包装）
 
-## 三、demo：一些演示
+## 三、least_square：最小二乘法
+1、projection_least_square.m：（教科书上常见的）列空间投影求最小二乘解
+
+## 四、curve_fitting：曲线拟合
+1、generate_curve_scatter.m：围绕给定曲线生成一系列位置扰动后的散点。用于初步测试曲线拟合效果
+
+## 五、demo：一些演示
 1、runge.m：龙格现象演示
