@@ -50,5 +50,11 @@
 ## 四、curve_fitting：曲线拟合
 1、generate_curve_scatter.m：围绕给定曲线生成一系列位置扰动后的散点。用于初步测试曲线拟合效果
 
+2、estimate_mse.m：计算均方误差以评估曲线拟合程度
+
+3、estimate_r_squared.m：计算R^2（决定系数）以评估曲线拟合程度
+
 ## 五、demo：一些演示
 1、runge.m：龙格现象演示
+
+2、least_square_curve_fitting.m：使用最小二乘法拟合人口模型并预测演示
